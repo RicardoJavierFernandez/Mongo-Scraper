@@ -1,0 +1,19 @@
+body {
+    background: blue;  
+    color: white;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 200px 400px 400px 200px;
+}
+
+.item-a, .item-b {
+    border: 1px solid #000000;
+    background: #ffffff;
+    color: #000000;
+}
+
+.footer {
+    border: 1px solid #ffffff;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "mongo-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RicardoJavierFernandez/Mongo-Scraper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RicardoJavierFernandez/Mongo-Scraper/issues"
+  },
+  "homepage": "https://github.com/RicardoJavierFernandez/Mongo-Scraper#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
