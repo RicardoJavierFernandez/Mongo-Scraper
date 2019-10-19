@@ -22,7 +22,8 @@ $('#scrape').on('click', () => {
         url: '/scrape',
         method: 'GET'
     }).then(() => {
-        console.log("Successfully scraped data")
+        console.log("Successfully scraped data");
+        location.reload();
     })
 });
 
