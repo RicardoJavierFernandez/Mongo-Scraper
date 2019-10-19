@@ -17,6 +17,8 @@ function getArticles() {
 
 $(document).ready(getArticles);
 
+$('#scrape').on('click', getArticles);
+
 
 $('body').on('click', '.title-header', (event) => {
     // console.log(event.target.dataset.id)

@@ -22,37 +22,26 @@ body {
     height: 150px;
     background: #357DED; 
     text-align: center;
-    line-height: 120px;
+    line-height: 60px;
     font-size: 36px;
 }
 
-.menu {
+#scrape {
     font-size: 24px;
-    line-height: 0px;
-    color: #000000;
+    color: #357DED;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+}
+
+#scrape:hover {
+    cursor: pointer;
+    opacity: 0.7;
 }
 
 .articles {
     grid-row-start: 2;
     width: 80%;
     justify-self: center;
-}
-
-.footer {
-    position: fixed;
-    display: block;
-    margin: 0;
-    padding: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    text-align: center;
-    line-height: 60px;
-    width: 100%;
-    height: 50px;
-    font-size: 16px;
-    background: #379392; 
-    grid-row-start: 3;
 }
 
 .title-header {
