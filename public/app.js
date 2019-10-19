@@ -17,7 +17,14 @@ function getArticles() {
 
 $(document).ready(getArticles);
 
-$('#scrape').on('click', getArticles);
+$('#scrape').on('click', () => {
+    $.ajax({
+        url: '/scrape',
+        method: 'GET'
+    }).then(() => {
+        console.log("Successfully scraped data")
+    })
+});
 
 
 $('body').on('click', '.title-header', (event) => {
